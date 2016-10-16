@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/background"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+        <TextView android:id="@+id/textView1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Garage Door Opener"
+            android:textColor="#cc6600"
+            android:textSize="20dip">
+        </TextView>
+    </LinearLayout>
+    <FrameLayout android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:paddingTop="35dip"
+        >
+        <LinearLayout android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:paddingTop="35dip">
+            <ImageView android:gravity="center_horizontal"
+                android:id="@+id/Status_ImageView"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/status_unknown"></ImageView>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:paddingTop="35dip"
+            >
+            <ProgressBar android:id="@+id/progressBar1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:visibility="invisible"></ProgressBar>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:paddingTop="35dip">
+        <ImageButton android:background="#00000000"
+            android:contentDescription="info"
+            android:id="@+id/OpenButton"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingRight="10dip"
+            android:src="@drawable/open_button"
+            android:tag="dooclosed">
+        </ImageButton>
+        <ImageButton android:background="#00000000"
+            android:contentDescription="info"
+            android:id="@+id/CloseButton"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingRight="10dip"
+            android:src="@drawable/close_button">
+        </ImageButton>
+    </LinearLayout>
+</LinearLayout>

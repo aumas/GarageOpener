@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/background.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/close.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/close_button.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/close_button_alt.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/close_pushed.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/icon.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/open.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/open_button.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/open_button_alt.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/open_pushed.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/status_closed.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/status_open.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/status_unknown.png" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
